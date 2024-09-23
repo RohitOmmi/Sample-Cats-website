@@ -1,4 +1,17 @@
+/**********************
+1.common css
+2.Navbar
+3.home
+4.About us 
+5.services
+6.contact Us
+7.footer
+**********************/
+
+/********** common css ***********/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 #warpper {
     width: 100%;
     height: auto;
@@ -8,7 +21,12 @@ body {
     width: 100%;
     height: auto;
     font-family: "Poppins", system-ui;
+    padding: 3px;
 }
+
+/********** common css ***********/
+
+/********** Navbar & home ****************/
 .tagline-container{
     position: relative;
 }
@@ -40,19 +58,24 @@ body {
     top:135px;
     right:180px;
     width:180px;
-    background-color:#0A61AD;
-    
-    
+    background-color:#0A61AD;   
 }
 .info-text{
     font-family: "Poppins";
     color:#ffffff;
    margin-left: 15px;
    margin-right: 15px;
-    font-family:'arial';
     padding:10px;
     width:150px;
 }
+.achievementSmallDevices{
+    font-family: "Poppins";
+    font-size: 10px;
+}
+
+/*************************/
+
+/********** Know About us ****************/
 .colored-cats{
     color:blue;
 }
@@ -82,11 +105,9 @@ body {
     bottom: 8px;
     left: 16px;
 }
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
+/***********************************/
+
+/********** Services ****************/
 .heading-more-than-support{
     font-family: "Poppins";
     font-size: 43px;
@@ -96,6 +117,20 @@ body {
     background-color: #0A61AD;
     
 }
+.parent-image{
+    position: relative;
+    text-align: center;
+   
+}
+.centered{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/**********************************/
+
+/************ contact Us ***********/
 .heading-get-in-touch{
     color:#ffffff;
     font-family: 'Poppins';
@@ -135,17 +170,7 @@ body {
     width:100%;
     height:404px;
 }
-.parent-image{
-    position: relative;
-    text-align: center;
-    font-family: "Poppins";
-}
-.centered{
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 .all-rights-reserved{
     font-size: 15px;
 }
